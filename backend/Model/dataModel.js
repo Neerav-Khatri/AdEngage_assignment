@@ -8,6 +8,6 @@ const dataSchema = mongoose.Schema({
     imgUrl : String
 });
 
-const dataModel = mongoose.Model("images", dataSchema);
+const dataModel = mongoose.model("images", dataSchema);
 
 module.exports = { dataModel };

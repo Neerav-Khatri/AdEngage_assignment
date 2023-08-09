@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/user", userRouter);
-app.use(auth);
+// app.use(auth);
 app.use("/data", dataRouter);
 
 app.listen(process.env.port, async() => {
